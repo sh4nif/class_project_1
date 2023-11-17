@@ -1,0 +1,102 @@
+body{
+    background-image: url(/public/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: sticky;
+    background: #111;
+    top: 0;
+}
+.background{
+    width:fit-content;
+    height: 500px;
+    background-color: #232324;  
+    background-position: right;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family: 'Wallpoet';font-size: 22px;
+    color: rgb(60, 0, 255);
+    text-shadow: 2px 2px rgb(0, 200, 255);
+    margin: 20px;
+    padding: 50px;
+    font-size: 50px; 
+}
+p{
+    font-size:18px ;
+    padding: 0;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+}
+.navbar ul{
+    background-repeat: repeat-x;
+   list-style-type: none; 
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+
+}
+.navbar a{
+    color:lightblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: grey;
+    padding: 8px;
+}
+.navbar li{
+    float: left;
+}
+.ab{
+    border-radius: 10px;
+}
+.ab:hover{
+    background-color:transparent;
+    color: black;
+}
+h3{
+    color: white;
+}
+
+.p{
+background-color: rgb(170, 255, 0);
+padding: 15px;
+}
+.images{
+    position: relative;
+    opacity: .3px;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  height: 100px;
+}
+.button{
+    background-color: lightslategray;
+    opacity: .5px;
+    position: relative;
+    top: 10px; left: 300px;
+    border-style: hidden;
+    border-radius: 10px;
+    color: rgb(23, 23, 24);
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: grabbing;
+}
+.button:hover{
+    opacity: 0.1;
+    right: 0;
+}
